@@ -26,7 +26,14 @@ h1 {
 
 
 }
-
+h5{
+    margin-top: 2px;
+    color: #e71515;  
+     font-size: 15px;
+     font-weight: 7px;  
+     font-style: italic;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
 
 .card__name {
     text-align: center;

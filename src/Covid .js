@@ -30,9 +30,9 @@ const Covid = () => {
     useEffect(() => {
         getCovidData();
     }, []);
-
+// eslint-disable-next-line
     return (
-        <>
+        <> <h5>By ADnitin </h5>
             <h1> 😟 LIVE  COVID TRACKER APP</h1>
             <div className="container" >
 
