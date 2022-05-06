@@ -5,35 +5,37 @@ h1 {
     word-spacing: 10px;
     font-family: 'Kanit', sans-serif;
     color: rgb(168, 253, 253);
-    }
+}
 
 .container {
-    display: flex;
+    /* display: flex; */
 
 
 }
 
 .card {
     height: 250px;
-    width: 500px !important;
-    background-color:rgb(253, 250, 77);
+    width: 20% !important;
+    background-color: rgb(253, 250, 77);
     opacity: .8;
-    margin: 60px 100px;
+    margin: 50px 6%;
     color: darkgoldenrod;
     border-bottom-left-radius: 60px 45px;
     border-top-right-radius: 60px 45px;
     box-shadow: 5px 5px 10px #e71515;
+    display: inline-block;
 
 
 }
-h5{
+
+h5 {
     margin-top: 2px;
-    color: #e71515;  
-     font-size: 15px;
-     font-weight: 7px;  
-     font-style: italic;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- }
+    color: #e71515;
+    font-size: 15px;
+    font-weight: 7px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .card__name {
     text-align: center;
@@ -58,6 +60,22 @@ body {
     background-image: url("./covid.avif");
     background-position: center;
     height: 100vh;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
+
     background-size: cover;
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        height: 250px;
+        width: 90% !important;
+
+        opacity: .8;
+        margin: auto;
+
+        display: block;
+
+
+    }
+
 }

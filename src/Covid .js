@@ -62,9 +62,9 @@ const Covid = () => {
 
                 
                
-            </div>
+           
 
-            <div className="container">
+            
             <div className="card">
                     <div className="card__main">
                         <div className="card__inner "></div>
